@@ -33,6 +33,7 @@ function App() {
     <div className="App">
       <h1>Dictionary App</h1>
       <input
+        type="text"
         onChange={(e) => {
           setText(e.target.value);
         }}
